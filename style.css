@@ -53,3 +53,35 @@ section {
     background-position: right;
     overflow: hidden;
 }
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    margin-bottom: 100px;
+    background-color: #fff;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
